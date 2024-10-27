@@ -1,0 +1,21 @@
+{
+  "name": "HtmlTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "esbuild main.ts --bundle --outfile=dist/bundle.js --format=iife"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nostr-tools": "^2.7.1",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "serve": "^14.2.4"
+  }
+}
