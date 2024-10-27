@@ -1,8 +1,7 @@
 {
-  "name": "HtmlTest",
+  "name": "typescript-test",
   "version": "1.0.0",
   "description": "",
-  "main": "test.html",
   "scripts": {
     "start": "serve .",
     "build": "esbuild main.ts --bundle --outfile=dist/bundle.js --format=iife"
