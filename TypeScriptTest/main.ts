@@ -1,3 +1,5 @@
-import { exe } from './relay'
+import { exe } from './aesKey'
 
-exe();
+exe().then((data) => {
+    console.log(data);
+});
